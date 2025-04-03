@@ -1,0 +1,10 @@
+algorithm,size,time_ms
+std_sort,small,0.9965
+bubble_sort,small,70.4799
+std_sort,medium,2.7236
+bubble_sort,medium,444.213
+std_sort,large,5.8284
+bubble_sort,large,1767.42
+
+cpu,memory,disk
+"Name=13th Gen Intel(R) Core(TM) i7-13700F","Capacity=17179869184Capacity=17179869184","Model=Patriot M.2 P300 2048GB"
