@@ -115,3 +115,18 @@ pip install pandas matplotlib seaborn
 - Windows-only (due to `WMIC` usage and `sort_runner.exe`)
 - Execution time results are system-dependent
 - Educational purpose: Illustrates contrast between algorithmic complexity and actual performance
+
+
+## 🛠️ Build Instructions (Windows)
+
+Use the batch script to compile and run the benchmark:
+
+```bash
+./build.bat
+```
+
+This script does the following:
+
+- Creates the output directory if it doesn't exist
+- Compiles `src/sorting.cpp` using `g++` with `-std=c++17 -O2`
+- If compilation succeeds, it runs `sort_runner.exe`
